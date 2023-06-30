@@ -325,7 +325,7 @@ var ParticlePool = (function() {
  
   // delay rendering bootstrap
   setTimeout(function() {
-    onResize();
+      onResize()
     render();
   }, 10);
 })(document.getElementById('pinkboard'));
@@ -341,6 +341,6 @@ var ParticlePool = (function() {
         align-items: center;
         justify-content: center;
         margin-bottom: 5px;
-        text-align: center;">Anh Yêu Em</div>
+        text-align: center;"> Phượng Chu Che:3</div>
  </BODY>
 </HTML>
